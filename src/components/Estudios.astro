@@ -1,0 +1,111 @@
+<section>
+	<h2>ESTUDIOS</h2>
+
+	<div class="tarjetas">
+		<div class="tarjeta">
+			<span class="numero">1</span>
+			<div class="texto">
+				<p class="centro">IES Mariano Pineda</p>
+				<p class="titulo">Bachillerato</p>
+				<p class="anios">2014-16</p>
+			</div>
+		</div>
+
+		<div class="tarjeta">
+			<span class="numero">2</span>
+			<div class="texto">
+				<p class="centro">Santa Joaquina de Vedruna</p>
+				<p class="titulo">Desarrollo de Aplicaciones Web</p>
+				<p class="anios">2016-18</p>
+			</div>
+		</div>
+
+		<div class="tarjeta">
+			<span class="numero">3</span>
+			<div class="texto">
+				<p class="centro">Universidad de Sevilla</p>
+				<p class="titulo">Grado en IA</p>
+				<p class="anios">2018-22</p>
+			</div>
+		</div>
+
+		<div class="tarjeta">
+			<span class="numero">4</span>
+			<div class="texto">
+				<p class="centro">OpenWebinars</p>
+				<p class="titulo">Curso de Python</p>
+				<p class="anios">2023</p>
+			</div>
+		</div>
+
+		<div class="tarjeta">
+			<span class="numero">5</span>
+			<div class="texto">
+				<p class="centro">Universidad de Sevilla</p>
+				<p class="titulo">Grado de ciberseguridad</p>
+				<p class="anios">2022-26</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	section {
+		background: #1e1e1e;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+	}
+
+	h2 {
+		font-size: 64px;
+		font-weight: 400;
+		margin: 0;
+	}
+
+	.tarjetas {
+		width: 660px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 40px 100px;
+	}
+
+	.tarjeta {
+	box-sizing: border-box;
+	width: 280px;
+	background: black;
+	border-radius: 6px;
+	padding: 14px 18px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	}
+
+	.numero {
+		font-size: 28px;
+	}
+
+	.texto p {
+		margin: 0;
+	}
+
+	.centro {
+		color: #c4000f;
+		font-size: 14px;
+	}
+
+	.titulo {
+		color: white;
+		font-size: 15px;
+		margin: 4px 0;
+	}
+
+	.anios {
+		color: #9a9a9a;
+		font-size: 13px;
+	}
+</style>
