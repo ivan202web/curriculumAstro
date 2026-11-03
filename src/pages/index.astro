@@ -1,48 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Inicio from '../components/Inicio.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout>
-	<header>
-		<img src="/logo.png" alt="Logo" />
-		<nav>
-			<a href="#inicio">INICIO</a>
-			<a href="#experiencia">EXPERIENCIA</a>
-			<a href="#habilidades">HABILIDADES</a>
-			<a href="#estudios">ESTUDIOS</a>
-		</nav>
-	</header>
+	<Header />
+	<Inicio />
 
-	<section id="inicio"></section>
 	<section id="experiencia"></section>
 	<section id="habilidades"></section>
 	<section id="estudios"></section>
+
+	<Footer />
 </Layout>
-
-<style>
-	header {
-		background: #1e6b38;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 60px;
-		padding: 8px;
-	}
-
-	header img {
-		width: 36px;
-		height: 36px;
-		border-radius: 50%;
-	}
-
-	nav {
-		display: flex;
-		gap: 40px;
-	}
-
-	nav a {
-		color: black;
-		text-decoration: none;
-		font-size: 12px;
-	}
-</style>
