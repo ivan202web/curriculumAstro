@@ -1,46 +1,54 @@
-# Astro Starter Kit: Basics
+# Currículum web - Iván Ballesteros Lara
 
-```sh
-npm create astro@latest -- --template basics
+Página web de mi currículum, creada con [Astro](https://astro.build) a partir de un diseño hecho previamente en Figma. Está dividida en cuatro páginas a las que se accede desde un navbar fijo.
+
+## Páginas
+
+Inicio, Experiencia, Habilidades y Estudios
+
+## Tecnologías
+
+- Astro
+- HTML y CSS
+- GitHub
+
+## Estructura del proyecto
+
+```
+public/
+  logo.png, foto.png, lupa.png, whatsapp.png
+  java.webp, mysql.jpg, html.jpg
+src/
+  components/
+    Header.astro
+    Inicio.astro
+    Experiencia.astro
+    Habilidades.astro
+    Estudios.astro
+    Footer.astro
+  layouts/
+    Layout.astro
+  pages/
+    index.astro
+    experiencia.astro
+    habilidades.astro
+    estudios.astro
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Qué he hecho
 
-## 🚀 Project Structure
+1. Crear el proyecto con Astro y subirlo a GitHub.
+2. Limpiar la plantilla por defecto.
+3. Crear el `Layout` con las fuentes y el fondo oscuro.
+4. Maquetar el navbar fijo con el logo, los enlaces a las cuatro páginas y los iconos de búsqueda y WhatsApp.
+5. Maquetar la página de inicio a pantalla completa, con el footer visible al hacer scroll.
+6. Crear las páginas de experiencia, habilidades y estudios, cada una a pantalla completa y sin scroll.
+7. Ir subiendo cada parte a GitHub con commits progresivos.
 
-Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## Autor
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Iván Ballesteros Lara
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Correo: ivanblara202@gmail.com
+- LinkedIn: ivan202
