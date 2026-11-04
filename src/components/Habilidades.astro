@@ -1,0 +1,103 @@
+<section>
+	<h2>HABILIDADES</h2>
+
+	<div class="columnas">
+		<div class="hard">
+			<h3>HARD SKILLS</h3>
+			<div class="lista">
+				<div class="tarjeta">
+					<img src="/java.webp" alt="JavaScript" />
+					<span>JAVA &amp; JavaScript</span>
+				</div>
+				<div class="tarjeta">
+					<img src="/mysql.jpg" alt="MySQL" />
+					<span>MySQL &amp; MongoDB</span>
+				</div>
+				<div class="tarjeta">
+					<img src="/html.jpg" alt="HTML y CSS" />
+					<span>HTML &amp; CSS</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="soft">
+			<h3>SOFT SKILLS</h3>
+			<div class="cuadricula">
+				<div class="tarjeta centrada"><span>Trabajo en equipo</span></div>
+				<div class="tarjeta centrada"><span>Comunicación efectiva</span></div>
+				<div class="tarjeta centrada"><span>Dirección</span></div>
+				<div class="tarjeta centrada"><span>Liderazgo</span></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	section {
+		background: #1e1e1e;
+		flex: 1;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+	}
+
+	h2 {
+		font-size: 64px;
+		font-weight: 400;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+		margin: 0 0 24px;
+	}
+
+	.columnas {
+		display: flex;
+		gap: 80px;
+		align-items: flex-start;
+	}
+
+	.lista {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.cuadricula {
+		width: 380px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 18px 20px;
+	}
+
+	.tarjeta {
+		box-sizing: border-box;
+		width: 180px;
+		background: black;
+		border-radius: 6px;
+		padding: 12px 14px;
+		font-family: 'Roboto Mono', monospace;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		gap: 14px;
+	}
+
+	.tarjeta img {
+		width: 32px;
+		height: 32px;
+		object-fit: contain;
+	}
+
+	.centrada {
+		justify-content: center;
+		text-align: center;
+		min-height: 56px;
+	}
+</style>
